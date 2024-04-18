@@ -78,7 +78,6 @@ body {
   background-size: cover;
   background-position: center;
   padding: 90px 0px;
-  
 }
 
 .banner__content h1 {
@@ -105,4 +104,26 @@ body {
   height: 148px;
   border-radius: 50%;
   border: 8px solid #117050;
+}
+
+.area-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.area-one__img {
+  background-image: url("images/f2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.area-one__img2 {
+  background-image: url("images/f1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
 }
