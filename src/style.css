@@ -72,3 +72,37 @@ body {
   cursor: pointer;
 }
 
+.banner {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 90px 0px;
+  
+}
+
+.banner__content h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+
+.banner__content span {
+  display: inline-block;
+}
+
+.banner__imgs {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+
+.banner__imgs img {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  border: 8px solid #117050;
+}
