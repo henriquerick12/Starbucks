@@ -162,6 +162,7 @@ a {
   flex-direction: column;
 }
 .area-three__one h2,
+.area-four__content h2,
 .area__container h2,
 .area-two__container h2 {
   font-family: "Oswald", sans-serif;
@@ -176,12 +177,15 @@ a {
 
 .area__container a,
 .area-three__one a,
+.area-four__content a,
 .area-two__container a {
   margin-top: 60px;
+  display: inline-block;
 }
 
 .area__container p,
 .area-three__one p,
+.area-four__content p,
 .area-two__container p {
   line-height: 30px;
 }
@@ -203,7 +207,9 @@ a {
   background-repeat: no-repeat;
   background-position: left;
 }
-.area-two__container p, .area-three__one p {
+.area-two__container p,
+.area-four__content p,
+.area-three__one p {
   margin-top: 20px;
 }
 
@@ -225,23 +231,36 @@ a {
 }
 
 .area-three__one {
-  padding: 200px 100px;
+  padding: 200px 90px;
   display: flex;
   flex-direction: column;
 }
 
 .area-four {
-  background-image: url('images/bg3.jpg');
+  display: grid;
+  grid-template-columns: 480px 1fr;
+  background-color: #e8e9ee;
 }
 
+.area-four__banner {
+  background-image: url("images/bg3.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
+.area-four__content {
+  padding: 150px 90px;
+}
 
+.area-four__content p {
+  font-weight: 300;
+}
 
+.area-five {
+  background-image: url("images/bg2.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
+footer {
+}
