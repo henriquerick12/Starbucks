@@ -161,7 +161,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-
+.area-three__one h2,
 .area__container h2,
 .area-two__container h2 {
   font-family: "Oswald", sans-serif;
@@ -175,11 +175,13 @@ a {
 }
 
 .area__container a,
+.area-three__one a,
 .area-two__container a {
   margin-top: 60px;
 }
 
 .area__container p,
+.area-three__one p,
 .area-two__container p {
   line-height: 30px;
 }
@@ -199,9 +201,9 @@ a {
   background-image: url("images/f4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
-.area-two__container p {
+.area-two__container p, .area-three__one p {
   margin-top: 20px;
 }
 
@@ -210,11 +212,26 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.area-three__one{
-  background-color: ;
+.area-three__one {
+  background-image: url("images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.area-three__two{
+.area-three__two {
+  background-image: url("images/f5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.area-three__one {
+  padding: 200px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.area-four {
+  background-image: url('images/bg3.jpg');
 }
 
 
